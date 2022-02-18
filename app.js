@@ -23,7 +23,10 @@ app.post("/", function(req, res) {
     .get(url)
     .then(response => {
       var content = response.data.content;
-      res.render("movies", {content: content, title: req.body.movie});
+      res.render("movies", {
+        content: content,
+        title: req.body.movie
+      });
     })
     .catch(error => {
       console.log(error.statusCode);
