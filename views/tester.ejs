@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>NEW</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body id="content">
+
+  <br>
+
+  <center>
+    <h1 style=""> <a href="/">RecoMovie</a> </h1>
+  </center>
+
+  <br><br><br>
+
+  <div id="mycontent">
+    <div id="mcontent">
+      <div class="poster-lg">
+        <img class="poster" style="border-radius: 40px;margin-left: 90px;" height="400" width="250" src="<%= movies[0].Image_Link %>">
+      </div>
+      <div class="poster-sm text-center">
+        <img class="poster" style="border-radius: 40px;margin-bottom: 5%;" height="400" width="250" src="<%= movies[0].Image_Link %>">
+      </div>
+      <div id="details">
+        <br />
+        <h6 id="title" style="color:white;">TITLE: <%= movies[0].Movie %></h6>
+        <h6 id="title" style="color:white;">Description: <%= movies[0].Description %></h6>
+      </div>
+    </div>
+  </div>
+  <br />
+
+
+  <div class="movie" style="color: #E8E8E8;">
+    <center>
+      <h3>RECOMMENDED MOVIES FOR YOU</h3>
+      <h5>(Click any of the movies to get recommendation)</h5>
+    </center>
+  </div>
+
+  <div class="movie-content">
+    <% for(i=1;i<movies.length;i++){ %>
+    <div class="card" style="width: 15rem;" title="<%= movies[i].Movie %>" onclick="recommendcard(this)">
+      <div class="imghvr">
+        <img class="card-img-top" height="360" width="240" alt="<%= movies[i].Movie %> - poster" src="<%= movies[i].Image_Link %>">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title"><%= movies[i].Movie %></h5>
+      </div>
+    </div>
+    <% } %>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
