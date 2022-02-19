@@ -25,6 +25,8 @@
 * To run the website type node app.js in terminal
 * Visit http://localhost:3000 to see the website
  
+# Screenshots:
+
  
  
  
