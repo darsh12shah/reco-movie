@@ -19,5 +19,13 @@
  # Web Stack:
  Node Js, HTML, Javascript,CSS
  
+ # Local Setup:
+ Install node modules
+ use npm i 
+ To run the website type node app.js in terminal
+ 
+ 
+ 
+ 
  
  
