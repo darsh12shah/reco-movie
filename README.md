@@ -20,9 +20,10 @@
  Node Js, HTML, Javascript,CSS
  
  # Local Setup:
+* Run git clone in the project folder
 * Install node modules
-* use npm i 
 * To run the website type node app.js in terminal
+* Visit http://localhost:3000 to see the website
  
  
  
