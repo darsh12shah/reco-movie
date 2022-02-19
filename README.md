@@ -1,16 +1,15 @@
-Movie Recommendation System
+#Movie Recommendation System
 (Winter Project Team #41)
 
-Team Members:
+#Team Members:
  Darsh KEvin Shah(BCS2019-015)
  Chaithanya.Y(BCS2019-014)
   
-  Project Description:
+# Project Description:
   This is a movie reccomendation website.It reccomends movies which have similar ratings or genre or cast.The backend is based on
   Collaborative filtering - uses the information of the connection between the user and movies.
   For example, users which give similar ratings to a movie. Hybrid - uses a combination of collaborative and content based recommendations.
   
-  Frontend URl:
+ # Frontend URl:https://enigmatic-tundra-22449.herokuapp.com
   
-  Backend URL:
-   https://movielens-ap.herokuapp.com/movies/[basis]/?movie=[movie]&limit=n
+ # Backend URL:https://movielens-ap.herokuapp.com/movies/[basis]/?movie=[movie]&limit=n
