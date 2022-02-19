@@ -10,7 +10,7 @@
   Collaborative filtering - uses the information of the connection between the user and movies.
   For example, users which give similar ratings to a movie. Hybrid - uses a combination of collaborative and content based recommendations.
   
- # Frontend URl:
+ # Frontend URL:
  https://enigmatic-tundra-22449.herokuapp.com
   
  # Backend URL:
