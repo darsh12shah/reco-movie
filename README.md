@@ -2,8 +2,8 @@
 (Winter Project Team #41)
 
 # Team Members:
- Darsh Kevin Shah(BCS2019-015)
- Chaithanya.Y(BCS2019-014)
+ * Darsh Kevin Shah(BCS2019-015)
+ * Chaithanya.Y(BCS2019-014)
   
 # Project Description:
   This is a movie reccomendation website.It reccomends movies which have similar ratings or genre or cast.The backend is based on
