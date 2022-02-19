@@ -2,7 +2,7 @@
 (Winter Project Team #41)
 
 # Team Members:
- Darsh KEvin Shah(BCS2019-015)
+ Darsh Kevin Shah(BCS2019-015)
  Chaithanya.Y(BCS2019-014)
   
 # Project Description:
