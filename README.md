@@ -26,6 +26,7 @@
 * Visit http://localhost:3000 to see the website
  
 # Screenshots:
+<img src="https://github.com/darsh12shah/reco-movie/blob/main/failure.png.png">
 
  
  
