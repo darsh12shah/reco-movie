@@ -11,8 +11,9 @@
   For example, users which give similar ratings to a movie. Hybrid - uses a combination of collaborative and content based recommendations.
   
  # Frontend URL:
- https://enigmatic-tundra-22449.herokuapp.com
-  
+ ```bash
+  https://enigmatic-tundra-22449.herokuapp.com
+ ``` 
  # Backend URL:
  https://movielens-ap.herokuapp.com/movies/[basis]/?movie=[movie]&limit=n
  
